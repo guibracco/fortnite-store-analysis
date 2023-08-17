@@ -1,0 +1,7 @@
+requests
+arrow
+bs4
+pandas
+seaborn
+matplotlib
+numpy
