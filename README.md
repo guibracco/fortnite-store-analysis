@@ -13,5 +13,5 @@ It is comprised by:
 2. HTML parser
 3. Data preparation notebook
 4. Analysis notebook
-5. HTML folder
-6. CSV folder
+5. HTML folder with crawled over daily webpages
+6. CSV folder with processed data
