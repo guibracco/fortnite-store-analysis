@@ -1,6 +1,6 @@
 # Fortnite Store Analysis
 
-### Fortnite Battle Royale
+## Fortnite Battle Royale
 
 ### An analysis of the Fortnite game items store from the perspective of economic game design
 
