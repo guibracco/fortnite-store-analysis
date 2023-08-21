@@ -9,9 +9,9 @@ This study intends to cover the availability and monetization of the items daily
 
 It is comprised by:
 
-1. Website crawler
-2. HTML parser
-3. Data preparation notebook
-4. Analysis notebook
+1. Website crawler (crawley.py)
+2. HTML parser (parsey.py)
+3. Data preparation notebook (preparation.ipynb)
+4. Analysis notebook (analysis.ipynb)
 5. HTML folder with crawled over daily webpages
 6. CSV folder with processed data

@@ -6,12 +6,14 @@ df = pandas.DataFrame()
 
 print("Parsing...")
 
-folder_path = os.path.dirname(__file__)
+folder_path = os.path.dirname(__file__) # Why __file__? https://stackoverflow.com/a/4060259/4080965
 input_path = folder_path + "/pages"
 
-html_file_paths = os.listdir(input_path)
+# Get the list of html files in the input folder
+# IMPORTANT: Make sure the only files in the input folder are the html files (including hidden files like .DS_Store)
+# html_file_paths = os.listdir(input_path)
 
-with open(folder_path + "/csv/" + "store.csv", "w") as outfile: 
+with open(folder_path + "/csv/" + "store.csv", "w") as outfile: # Open the output file
     outfile.write(f"date,rarity,item_type,name,cost\n")
     
     html_file_paths = os.listdir(input_path)
@@ -31,6 +33,7 @@ with open(folder_path + "/csv/" + "store.csv", "w") as outfile:
                     name = html_item.span.text.strip()
 
                     # Try to parse the cost, set to -1 if parsing fails
+                    # Some of the items doesn't have a price
                     try:
                         cost = int(html_item.p.text.strip().replace(",",""))
                     except ValueError:
