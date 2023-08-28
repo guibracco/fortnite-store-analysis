@@ -2,7 +2,7 @@
 
 ## Fortnite Battle Royale
 
-### An analysis of Fortnite game items store from the perspective of economic game design
+### An analysis of the game items store from the perspective of economic game design
 
 It is comprised of:
 
