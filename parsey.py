@@ -7,7 +7,7 @@ df = pandas.DataFrame()
 print("Parsing...")
 
 folder_path = os.path.dirname(__file__) # Why __file__? https://stackoverflow.com/a/4060259/4080965
-input_path = folder_path + "/pages"
+input_path = folder_path + "/html"
 
 # Get the list of html files in the input folder
 # IMPORTANT: Make sure the only files in the input folder are the html files (including hidden files like .DS_Store)
