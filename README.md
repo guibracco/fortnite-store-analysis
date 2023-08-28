@@ -2,7 +2,7 @@
 
 ## Fortnite Battle Royale
 
-### An analysis of the game items store from the perspective of economic game design
+### An analysis of the game item shop from the perspective of economic game design
 
 It is comprised of:
 
@@ -14,11 +14,11 @@ It is comprised of:
 6. CSV folder with processed data
 7. Workbook folder with (maybe) alternative analysis
 
-Fortnite Battle Royale by Epic Games is one of the most sucessful games in the battle royale genre. Released in 2017, it has been a huge success, with over 350 million players worldwide. The game is free to play, but it has a monetization system based on the sale of cosmetic items, such as skins, emotes, pickaxes, gliders, etc. These items are sold in the Item Store, which is updated daily with new items. The items are sold for V-Bucks, the in-game currency, which can be bought with real money.
+Fortnite Battle Royale by Epic Games is one of the most sucessful games in the battle royale genre. Released in 2017, it has been a huge success, with over 350 million players worldwide. The game is free to play, but it has a monetization system based on the sale of cosmetic items, such as skins, emotes, pickaxes, gliders, etc. These items are sold in the Item Shop, which is updated daily with new items. The items are sold for V-Bucks, the in-game currency, which can be bought with real money.
 
 ### What
 
-An analysis of the Fortnite Battle Royale items store from the perspective of economic game design.
+An analysis of the Fortnite Battle Royale item shop from the perspective of economic game design.
 
 This study intends to cover the availability and monetization of the items daily on sale for Fortnite Battle Royale.
 
