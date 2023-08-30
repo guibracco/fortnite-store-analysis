@@ -24,8 +24,8 @@ This study intends to cover the availability and monetization of the items daily
 
 ### How
 
-By scraping, cleaning and organizing the data available on fandom websites, as well as asking the right questions from the game development perspective and doing the necessary analysis to answer them.
+By scraping, cleaning and organising the data available on a fandom website (https://fnbr.co/shop) and exploring availability, seasonality, price range, spending depth, etc. over time to gather insights and answer questions from the game development perspective.
 
 ### Why
 
-One of the common practices when designing and developing new games in a determined genre is to study the most successful games in that genre, so called benchmarks, to get a better understanding of their monetization system and what is needed in the different stages of the game development and adoption.
+One of the common practices when designing and developing new games in a determined genre is to study the most successful games in that genre, the so called benchmarks, to get a better understanding of their monetization system and what is needed in the different stages of the game development and adoption.
