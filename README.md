@@ -8,7 +8,7 @@ It is comprised of:
 
 1. Website crawler (crawley.py)
 2. HTML parser (parsey.py)
-3. Data preparation notebook (preparation.ipynb)
+3. Data preparation notebook (preparation.ipynb) # Not sure I'm gonna do this here
 4. Analysis notebook (analysis.ipynb)
 5. HTML folder with crawled over daily webpages
 6. CSV folder with processed data
