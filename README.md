@@ -1,4 +1,4 @@
-## Fortnite Store Analysis
+# Fortnite Store Analysis
 
 ## Fortnite Battle Royale
 
