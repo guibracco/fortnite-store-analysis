@@ -9,14 +9,12 @@ print("Parsing...")
 folder_path = os.path.dirname(__file__) # Why __file__? https://stackoverflow.com/a/4060259/4080965
 input_path = folder_path + "/html"
 
-# Get the list of html files in the input folder
 # IMPORTANT: Make sure the only files in the input folder are the html files (including hidden files like .DS_Store)
-# html_file_paths = os.listdir(input_path)
 
 with open(folder_path + "/csv/" + "store.csv", "w") as outfile: # Open the output file
     outfile.write(f"date,rarity,item_type,name,cost\n")
     
-    html_file_paths = os.listdir(input_path)
+    html_file_paths = os.listdir(input_path) # Get the list of html files in the input folder
     
     for path in html_file_paths:
         with open(input_path + "/" + path, "r") as infile: 
@@ -39,7 +37,7 @@ with open(folder_path + "/csv/" + "store.csv", "w") as outfile: # Open the outpu
                     except ValueError:
                         cost = -1
 
-                    # print(date, rarity, item_type, name, cost)
-                    outfile.write(f"{date},{rarity},{item_type},\"{name}\",{cost}\n")
+                    # Got to be creative because name may contain commas, single quotes and double quotes; using "*" for quotation
+                    outfile.write(f"{date},{rarity},{item_type},*{name}*,{cost}\n")
                 except Exception as e:
                     print("Error processing item:", e, html_item.prettify())
