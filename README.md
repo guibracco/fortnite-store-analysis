@@ -8,11 +8,9 @@ It is comprised of:
 
 1. Website crawler (crawley.py)
 2. HTML parser (parsey.py)
-3. Data preparation notebook (preparation.ipynb) # not sure I'm gonna do this here
-4. Analysis notebook (analysis.ipynb)
-5. HTML folder with crawled over daily webpages
-6. CSV folder with processed data
-7. Workbook folder with (maybe) alternative analysis
+3. Analysis notebook (analysis.ipynb)
+4. HTML folder with crawled over daily webpages
+5. CSV folder with processed data
 
 Fortnite Battle Royale by Epic Games is one of the most sucessful games in the battle royale genre. Released in 2017, it has been a huge success, with over 350 million players worldwide. The game is free to play, but it has a monetization system based on the sale of cosmetic items, such as skins, emotes, pickaxes, gliders, etc. These items are sold in the Item Shop, which is updated daily with new items. The items are sold for V-Bucks, the in-game currency, which can be bought with real money.
 
