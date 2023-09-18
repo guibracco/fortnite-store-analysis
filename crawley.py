@@ -3,9 +3,9 @@ from arrow.arrow import Arrow
 import os
 import datetime
 
-# datetime.datetime(2020, 4, 17)
+# This script will crawl the fnbr.co item shop page and save the html for each day
 # First available date is 2017-10-30
-date = Arrow.fromdatetime(datetime.datetime(2023, 8, 17))
+date = Arrow.fromdatetime(datetime.datetime(2023, 9, 18))
 folder_path = os.path.dirname(__file__)
 
 # Going back from the date above, grab the pages in the range of days
