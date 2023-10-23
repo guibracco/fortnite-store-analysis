@@ -11,6 +11,7 @@ It is comprised of:
 3. Analysis notebook (analysis.ipynb)
 4. HTML folder with crawled over daily webpages
 5. CSV folder with processed data
+6. Presentations and PDP folders
 
 Fortnite Battle Royale by Epic Games is one of the most sucessful games in the battle royale genre. Released in 2017, it has been a huge success, with over 500 million players worldwide. The game is free to play, but it has a monetization system based on the sale of cosmetic items, such as skins, emotes, pickaxes, gliders, etc. These items are sold in the Item Shop, which is updated daily with new items. The items are sold for V-Bucks, the in-game currency, which can be bought with real money.
 
